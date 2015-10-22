@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48DA33A1BC747A000C68179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A48DA3391BC747A000C68179 /* main.m */; };
+		A48DA33D1BC747A000C68179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A48DA33C1BC747A000C68179 /* AppDelegate.m */; };
+		A48DA3401BC747A000C68179 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48DA33F1BC747A000C68179 /* ViewController.m */; };
+		A48DA3431BC747A000C68179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48DA3411BC747A000C68179 /* Main.storyboard */; };
+		A48DA3461BC747A000C68179 /* GridView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A48DA3441BC747A000C68179 /* GridView.xcdatamodeld */; };
+		A48DA3481BC747A000C68179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48DA3471BC747A000C68179 /* Assets.xcassets */; };
+		A48DA34B1BC747A000C68179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48DA3491BC747A000C68179 /* LaunchScreen.storyboard */; };
+		A48DA3561BC747A000C68179 /* GridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48DA3551BC747A000C68179 /* GridViewTests.m */; };
+		A48DA3611BC747A000C68179 /* GridViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48DA3601BC747A000C68179 /* GridViewUITests.m */; };
+		A48DA3701BC748E000C68179 /* FISImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A48DA36F1BC748E000C68179 /* FISImage.m */; settings = {ASSET_TAGS = (); }; };
+		A48DA3731BC749F500C68179 /* FISImageGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = A48DA3721BC749F500C68179 /* FISImageGrid.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A48DA3521BC747A000C68179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A48DA32D1BC747A000C68179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48DA3341BC747A000C68179;
+			remoteInfo = GridView;
+		};
+		A48DA35D1BC747A000C68179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A48DA32D1BC747A000C68179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48DA3341BC747A000C68179;
+			remoteInfo = GridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A48DA3351BC747A000C68179 /* GridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48DA3391BC747A000C68179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A48DA33B1BC747A000C68179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A48DA33C1BC747A000C68179 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A48DA33E1BC747A000C68179 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A48DA33F1BC747A000C68179 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A48DA3421BC747A000C68179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A48DA3451BC747A000C68179 /* GridView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GridView.xcdatamodel; sourceTree = "<group>"; };
+		A48DA3471BC747A000C68179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A48DA34A1BC747A000C68179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A48DA34C1BC747A000C68179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48DA3511BC747A000C68179 /* GridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48DA3551BC747A000C68179 /* GridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewTests.m; sourceTree = "<group>"; };
+		A48DA3571BC747A000C68179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48DA35C1BC747A000C68179 /* GridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48DA3601BC747A000C68179 /* GridViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewUITests.m; sourceTree = "<group>"; };
+		A48DA3621BC747A000C68179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48DA36E1BC748E000C68179 /* FISImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISImage.h; sourceTree = "<group>"; };
+		A48DA36F1BC748E000C68179 /* FISImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISImage.m; sourceTree = "<group>"; };
+		A48DA3711BC749F500C68179 /* FISImageGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISImageGrid.h; sourceTree = "<group>"; };
+		A48DA3721BC749F500C68179 /* FISImageGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISImageGrid.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A48DA3321BC747A000C68179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48DA34E1BC747A000C68179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48DA3591BC747A000C68179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A48DA32C1BC747A000C68179 = {
+			isa = PBXGroup;
+			children = (
+				A48DA3371BC747A000C68179 /* GridView */,
+				A48DA3541BC747A000C68179 /* GridViewTests */,
+				A48DA35F1BC747A000C68179 /* GridViewUITests */,
+				A48DA3361BC747A000C68179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48DA3361BC747A000C68179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48DA3351BC747A000C68179 /* GridView.app */,
+				A48DA3511BC747A000C68179 /* GridViewTests.xctest */,
+				A48DA35C1BC747A000C68179 /* GridViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48DA3371BC747A000C68179 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				A48DA33B1BC747A000C68179 /* AppDelegate.h */,
+				A48DA33C1BC747A000C68179 /* AppDelegate.m */,
+				A48DA33E1BC747A000C68179 /* ViewController.h */,
+				A48DA33F1BC747A000C68179 /* ViewController.m */,
+				A48DA3711BC749F500C68179 /* FISImageGrid.h */,
+				A48DA3721BC749F500C68179 /* FISImageGrid.m */,
+				A48DA36E1BC748E000C68179 /* FISImage.h */,
+				A48DA36F1BC748E000C68179 /* FISImage.m */,
+				A48DA3411BC747A000C68179 /* Main.storyboard */,
+				A48DA3471BC747A000C68179 /* Assets.xcassets */,
+				A48DA3491BC747A000C68179 /* LaunchScreen.storyboard */,
+				A48DA34C1BC747A000C68179 /* Info.plist */,
+				A48DA3441BC747A000C68179 /* GridView.xcdatamodeld */,
+				A48DA3381BC747A000C68179 /* Supporting Files */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		A48DA3381BC747A000C68179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A48DA3391BC747A000C68179 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A48DA3541BC747A000C68179 /* GridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A48DA3551BC747A000C68179 /* GridViewTests.m */,
+				A48DA3571BC747A000C68179 /* Info.plist */,
+			);
+			path = GridViewTests;
+			sourceTree = "<group>";
+		};
+		A48DA35F1BC747A000C68179 /* GridViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A48DA3601BC747A000C68179 /* GridViewUITests.m */,
+				A48DA3621BC747A000C68179 /* Info.plist */,
+			);
+			path = GridViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48DA3341BC747A000C68179 /* GridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48DA3651BC747A000C68179 /* Build configuration list for PBXNativeTarget "GridView" */;
+			buildPhases = (
+				A48DA3311BC747A000C68179 /* Sources */,
+				A48DA3321BC747A000C68179 /* Frameworks */,
+				A48DA3331BC747A000C68179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridView;
+			productName = GridView;
+			productReference = A48DA3351BC747A000C68179 /* GridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A48DA3501BC747A000C68179 /* GridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48DA3681BC747A000C68179 /* Build configuration list for PBXNativeTarget "GridViewTests" */;
+			buildPhases = (
+				A48DA34D1BC747A000C68179 /* Sources */,
+				A48DA34E1BC747A000C68179 /* Frameworks */,
+				A48DA34F1BC747A000C68179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48DA3531BC747A000C68179 /* PBXTargetDependency */,
+			);
+			name = GridViewTests;
+			productName = GridViewTests;
+			productReference = A48DA3511BC747A000C68179 /* GridViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A48DA35B1BC747A000C68179 /* GridViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48DA36B1BC747A000C68179 /* Build configuration list for PBXNativeTarget "GridViewUITests" */;
+			buildPhases = (
+				A48DA3581BC747A000C68179 /* Sources */,
+				A48DA3591BC747A000C68179 /* Frameworks */,
+				A48DA35A1BC747A000C68179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48DA35E1BC747A000C68179 /* PBXTargetDependency */,
+			);
+			name = GridViewUITests;
+			productName = GridViewUITests;
+			productReference = A48DA35C1BC747A000C68179 /* GridViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A48DA32D1BC747A000C68179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Flatiron;
+				TargetAttributes = {
+					A48DA3341BC747A000C68179 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A48DA3501BC747A000C68179 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A48DA3341BC747A000C68179;
+					};
+					A48DA35B1BC747A000C68179 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A48DA3341BC747A000C68179;
+					};
+				};
+			};
+			buildConfigurationList = A48DA3301BC747A000C68179 /* Build configuration list for PBXProject "GridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A48DA32C1BC747A000C68179;
+			productRefGroup = A48DA3361BC747A000C68179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48DA3341BC747A000C68179 /* GridView */,
+				A48DA3501BC747A000C68179 /* GridViewTests */,
+				A48DA35B1BC747A000C68179 /* GridViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A48DA3331BC747A000C68179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48DA34B1BC747A000C68179 /* LaunchScreen.storyboard in Resources */,
+				A48DA3481BC747A000C68179 /* Assets.xcassets in Resources */,
+				A48DA3431BC747A000C68179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48DA34F1BC747A000C68179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48DA35A1BC747A000C68179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A48DA3311BC747A000C68179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48DA3401BC747A000C68179 /* ViewController.m in Sources */,
+				A48DA3701BC748E000C68179 /* FISImage.m in Sources */,
+				A48DA3731BC749F500C68179 /* FISImageGrid.m in Sources */,
+				A48DA33D1BC747A000C68179 /* AppDelegate.m in Sources */,
+				A48DA3461BC747A000C68179 /* GridView.xcdatamodeld in Sources */,
+				A48DA33A1BC747A000C68179 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48DA34D1BC747A000C68179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48DA3561BC747A000C68179 /* GridViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48DA3581BC747A000C68179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48DA3611BC747A000C68179 /* GridViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A48DA3531BC747A000C68179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A48DA3341BC747A000C68179 /* GridView */;
+			targetProxy = A48DA3521BC747A000C68179 /* PBXContainerItemProxy */;
+		};
+		A48DA35E1BC747A000C68179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A48DA3341BC747A000C68179 /* GridView */;
+			targetProxy = A48DA35D1BC747A000C68179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A48DA3411BC747A000C68179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48DA3421BC747A000C68179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A48DA3491BC747A000C68179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48DA34A1BC747A000C68179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A48DA3631BC747A000C68179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A48DA3641BC747A000C68179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A48DA3661BC747A000C68179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GridView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FIS.PalindromeFinder.GridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A48DA3671BC747A000C68179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GridView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FIS.PalindromeFinder.GridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A48DA3691BC747A000C68179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FIS.PalindromeFinder.GridViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridView.app/GridView";
+			};
+			name = Debug;
+		};
+		A48DA36A1BC747A000C68179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FIS.PalindromeFinder.GridViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridView.app/GridView";
+			};
+			name = Release;
+		};
+		A48DA36C1BC747A000C68179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FIS.PalindromeFinder.GridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GridView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A48DA36D1BC747A000C68179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FIS.PalindromeFinder.GridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GridView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A48DA3301BC747A000C68179 /* Build configuration list for PBXProject "GridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48DA3631BC747A000C68179 /* Debug */,
+				A48DA3641BC747A000C68179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48DA3651BC747A000C68179 /* Build configuration list for PBXNativeTarget "GridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48DA3661BC747A000C68179 /* Debug */,
+				A48DA3671BC747A000C68179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A48DA3681BC747A000C68179 /* Build configuration list for PBXNativeTarget "GridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48DA3691BC747A000C68179 /* Debug */,
+				A48DA36A1BC747A000C68179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A48DA36B1BC747A000C68179 /* Build configuration list for PBXNativeTarget "GridViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48DA36C1BC747A000C68179 /* Debug */,
+				A48DA36D1BC747A000C68179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A48DA3441BC747A000C68179 /* GridView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A48DA3451BC747A000C68179 /* GridView.xcdatamodel */,
+			);
+			currentVersion = A48DA3451BC747A000C68179 /* GridView.xcdatamodel */;
+			path = GridView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A48DA32D1BC747A000C68179 /* Project object */;
+}
